@@ -49,9 +49,9 @@ Default Css
 
 $body-font-family: 'Poppins', sans-serif;
 $muli-font-family: 'Muli', sans-serif;
-$theme-color: #be2026; 
-$paragraph-color: #5c5c5c;
-$heading-h3-color: #2f2c2c;
+$theme-color: #A0E7A7; 
+$paragraph-color: #ccc;
+$heading-h3-color: #000;
 
 body {
     font-family: $body-font-family;
@@ -1364,6 +1364,7 @@ a.meanmenu-reveal {
             padding: 20px;
             padding-bottom: 15px;
             h3 {
+            	color: $theme-color;
                 text-transform: capitalize;
                 transition: .5s;
             }
@@ -1710,7 +1711,7 @@ a.meanmenu-reveal {
             ul {
                 padding: 15px;
                 margin: 0;
-                background: $theme-color;
+                background: #000;
                 text-align: center;
                 border-radius: 10px;
                 position: relative;
@@ -1937,7 +1938,7 @@ a.meanmenu-reveal {
         }
     }
     p {
-        color: #ffffff;
+	color: #fff;
     }
     .social-icon {
         margin-top: 30px;
@@ -1949,7 +1950,7 @@ a.meanmenu-reveal {
                 margin-right: 10px;
                 a {
                     color: #ffffff;
-                    border: 1px solid #be2026;
+                    border: 1px solid #A0E7A7;
                     width: 35px;
                     height: 35px;
                     display: inline-block;
@@ -2537,7 +2538,7 @@ a.meanmenu-reveal {
 ==============================*/
 .appoinment-section {
     .appoinment-wrapper {
-        background: #f6f6f6;
+        background: #444444;
         position: relative;
         z-index: 1;
         .shape {
@@ -2554,6 +2555,7 @@ a.meanmenu-reveal {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+	background-color: #444444;
         width: 100%;
         height: 100%;
         .play-video {

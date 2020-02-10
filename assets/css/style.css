@@ -86,15 +86,19 @@ ul {
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
+	background: #444444;
 }
 .pt-100 {
   padding-top: 100px;
+	background: #444444;
 }
 .pb-70 {
   padding-bottom: 70px;
+	background: #444444;
 }
 .pb-100 {
   padding-bottom: 100px;
+	background: #444444;
 }
 .pt-mines-25 {
   padding: 100px 0 65px !important;
@@ -117,7 +121,7 @@ button:focus {
 .read-more {
   display: inline-block;
   padding: 5px 0px;
-  color: #666666;
+  color: #ccc;
   font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
@@ -311,7 +315,7 @@ button:focus {
 .section-title h2 {
   font-size: 30px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 22px;
@@ -1000,14 +1004,14 @@ a.meanmenu-reveal {
   width: 120px;
   height: 50px;
   text-transform: capitalize;
-  color: #666666;
+  color: #fff;
   border: 0;
   -webkit-transition: .5s;
   transition: .5s;
 }
 .perches-form-wrapper .submit-button .search-button:hover {
   cursor: pointer;
-  background: #222021;
+  background: #fff;
   color: #000000;
 }
 .perches-form-wrapper .single-select h3 {
@@ -1127,10 +1131,12 @@ a.meanmenu-reveal {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 8px;
+	color: #ffffff;
 }
 .offer-section .single-offer p {
   margin-bottom: 25px;
   margin-top: 20px;
+	color: #cccccc;
 }
 .offer-section .single-offer .read-more::before {
   bottom: 10px;
@@ -1230,6 +1236,9 @@ a.meanmenu-reveal {
   margin-bottom: 30px;
   margin-top: 10px;
 }
+.about-section .single-about .text p {
+	color: #ccc;
+}
 .about-section .ab-left {
   margin-left: auto;
   max-width: 540px;
@@ -1315,6 +1324,7 @@ a.meanmenu-reveal {
 .single-add-box .image-caption-wrapper .add-box-content h3 {
   text-transform: capitalize;
   -webkit-transition: .5s;
+	color: #cccccc;
   transition: .5s;
 }
 .single-add-box .image-caption-wrapper .add-box-content .info-list ul {
@@ -1324,7 +1334,7 @@ a.meanmenu-reveal {
 .single-add-box .image-caption-wrapper .add-box-content .info-list ul li {
   display: inline-block;
   font-size: 13px;
-  color: #5c5c5c;
+  color: #b3b3b3;
   margin-right: 20px;
   text-transform: capitalize;
 }
@@ -1349,7 +1359,7 @@ a.meanmenu-reveal {
   font-weight: 600;
   float: left;
   margin-bottom: 0;
-  color: #646464;
+	color: #cccccc;
 }
 .single-add-box .image-caption-wrapper .add-box-bottom .react {
   margin: 0;
@@ -1563,6 +1573,7 @@ a.meanmenu-reveal {
   margin-bottom: 0;
   max-width: 300px;
   margin: auto;
+	color: #ccc;
 }
 .testimonial-slider .testimonial-single-item .profile img {
   margin-top: 20px;
@@ -1690,7 +1701,7 @@ a.meanmenu-reveal {
  News Section Style
 ==============================*/
 .news-section {
-  background-color: #f6f6f6;
+  background-color: #444444;
 }
 .news-section .news-slider.owl-theme .owl-dots {
   display: none;
@@ -1711,7 +1722,7 @@ a.meanmenu-reveal {
   padding: 30px;
 }
 .single-news .image-cap span {
-  color: #666666;
+  color: #ccc;
   font-size: 12px;
 }
 .single-news .image-cap span i {
@@ -1721,7 +1732,7 @@ a.meanmenu-reveal {
 .single-news .image-cap h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #000000;
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
   line-height: 30px;
@@ -1730,6 +1741,7 @@ a.meanmenu-reveal {
 }
 .single-news .image-cap p {
   line-height: 25px;
+	color: #ccc;
 }
 .single-news .image-cap:hover h3 {
   color: #A0E7A7;
@@ -1742,6 +1754,7 @@ a.meanmenu-reveal {
 ==============================*/
 .logo-section {
   padding: 70px 0;
+	background-color: #444444;
 }
 .logo-section .logo-slider.owl-carousel .owl-item img {
   width: 90px;
@@ -1759,6 +1772,7 @@ a.meanmenu-reveal {
 .subscribe-section {
   position: relative;
   z-index: 1;
+	background-color: #444444;
 }
 .subscribe-content {
   background: #A0E7A7;
@@ -1833,6 +1847,7 @@ a.meanmenu-reveal {
   background-repeat: no-repeat;
   position: relative;
   padding: 125px 0 65px;
+	color: #fff;
 }
 .footer-top::before {
   content: "";
@@ -1843,6 +1858,7 @@ a.meanmenu-reveal {
   width: 100%;
   height: 100%;
   opacity: .9;
+	color: #fff;
 }
 .single-widget {
   margin-bottom: 30px;
@@ -1852,7 +1868,7 @@ a.meanmenu-reveal {
   width: unset;
 }
 .single-widget p {
-  color: #000000;
+	color: #fff;
 }
 .single-widget .social-icon {
   margin-top: 30px;
@@ -1881,7 +1897,7 @@ a.meanmenu-reveal {
 }
 .single-widget h3 {
   text-transform: uppercase;
-  color: #000000;
+  color: #fff;
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -1897,7 +1913,7 @@ a.meanmenu-reveal {
   margin-bottom: 0;
 }
 .single-widget .page-list ul li a {
-  color: #ffff;
+  color: #fff;
   text-transform: capitalize;
   font-size: 15px;
 }
@@ -1927,7 +1943,7 @@ a.meanmenu-reveal {
 }
 .single-widget .information ul li {
   margin-bottom: 22px;
-  color: #000000;
+  color: #fff;
   font-size: 15px;
   position: relative;
   padding-left: 35px;
@@ -1936,7 +1952,7 @@ a.meanmenu-reveal {
   margin-bottom: 0;
 }
 .single-widget .information ul li a {
-  color: #000000;
+  color: #fff;
   font-size: 15px;
 }
 .single-widget .information ul li a:hover {
@@ -2143,11 +2159,11 @@ a.meanmenu-reveal {
  Services Two Section 
 ==============================*/
 .services-section2 {
-  background-color: #f6f6f6;
+  background-color: #444444;
 }
 .services-section2 .single-services h3 {
   font-weight: 600;
-  color: #000000;
+  color: #fff;
   margin-bottom: 10px;
   font-size: 25px;
 }
@@ -2156,7 +2172,10 @@ a.meanmenu-reveal {
   padding: 0;
 }
 .services-section2 .single-services .service-list ul li {
-  color: #474444;
+  color: #d9d9d9;
+}
+.services-section2 .single-services p {
+  color: #ccc;
 }
 .services-section2 .single-services .service-list ul li i {
   color: #A0E7A7;
@@ -2176,6 +2195,7 @@ a.meanmenu-reveal {
 }
 .mission-section .single-mission p {
   margin-bottom: 30px;
+	color: #ccc;
 }
 .mission-section .single-mission .mission-service {
   margin-bottom: 30px;
@@ -2202,6 +2222,7 @@ a.meanmenu-reveal {
 .mission-section .single-mission .mission-service .text p {
   max-width: 300px;
   margin-bottom: 0;
+	color: #ccc;
 }
 /*
  Inventory Section Start 
@@ -2243,12 +2264,12 @@ a.meanmenu-reveal {
 .single-inventory .inventory-top h3 {
   text-transform: capitalize;
   font-size: 20px;
-  color: #403f3f;
+  color: #fff;
   -webkit-transition: .5s;
   transition: .5s;
 }
 .single-inventory .inventory-top h4 {
-  color: #666666;
+  color: #fff;
   font-size: 16px;
   margin-bottom: 30px;
   -webkit-transition: .5s;
@@ -2257,7 +2278,7 @@ a.meanmenu-reveal {
 .single-inventory .inventory-top h4 span {
   font-size: 22px;
   font-weight: 700;
-  color: #000000;
+  color: #fff;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -2276,7 +2297,7 @@ a.meanmenu-reveal {
   padding: 0;
 }
 .single-inventory .inventroy-content ul li {
-  color: #5c5c5c;
+  color: #BCBCBC;
   text-transform: capitalize;
   -webkit-transition: .5s;
   transition: .5s;
@@ -2368,7 +2389,7 @@ a.meanmenu-reveal {
  Gallery Section Start 
 ==============================*/
 .gallery-section {
-  background-color: #f6f6f6;
+  background-color: #444444;
 }
 .gallery-section .gallery-slider.owl-theme .owl-dots {
   display: none;
@@ -2386,7 +2407,7 @@ a.meanmenu-reveal {
   width: 100%;
   height: 100%;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#403f3f), color-stop(#643d3e), color-stop(#843939), color-stop(#a23031), to(#A0E7A7));
-  background-image: linear-gradient(to top, #403f3f, #643d3e, #843939, #a23031, #A0E7A7);
+  background-image: linear-gradient(to top, #444, #A0E7A7);
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: .5s;
@@ -2418,7 +2439,7 @@ a.meanmenu-reveal {
  Appoinment Section 
 ==============================*/
 .appoinment-section .appoinment-wrapper {
-  background: #f6f6f6;
+  background: #444444;
   position: relative;
   z-index: 1;
 }
@@ -2435,6 +2456,7 @@ a.meanmenu-reveal {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+	background-color: #444444;
   width: 100%;
   height: 100%;
 }
@@ -2487,6 +2509,7 @@ a.meanmenu-reveal {
   margin-right: auto;
   margin-left: auto;
   max-width: 525px;
+ color: #000;
 }
 .appoinment-section .appoinment-form .form-group {
   margin-bottom: 20px;
@@ -2496,9 +2519,9 @@ a.meanmenu-reveal {
 }
 .appoinment-section .appoinment-form .form-control {
   border: 0;
-  border-bottom: 1px solid #bababa;
+ color: #000;
+  border-bottom: 1px solid #fff;
   text-transform: capitalize;
-  color: #6c757d;
   background-color: unset;
   border-radius: 0;
   padding: 10px 0;
@@ -2507,6 +2530,7 @@ a.meanmenu-reveal {
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0;
+ color: #000;
 }
 .appoinment-section .appoinment-form .custom-btn2 {
   border: none;
@@ -2577,10 +2601,12 @@ a.meanmenu-reveal {
 .single-choose .text h3 {
   text-transform: capitalize;
   font-size: 16px;
+	color: #fff;
 }
 .single-choose .text p {
   margin-bottom: 0;
   line-height: 25px;
+	color: #ccc;
 }
 .col-lg-6.choose:nth-child(2) {
   margin-top: 15px;
@@ -3501,16 +3527,16 @@ a.meanmenu-reveal {
   transition: 0.5s;
 }
 .blog-details .article-footer .article-share .social li a i:hover {
-  color: #000000;
+  color: #fff;
   background-color: #A0E7A7;
 }
 .blog-details .article-footer .article-share .social li a i.fa-facebook-f {
   background-color: #3b5998;
-  color: #000000;
+  color: #ffffff;
 }
 .blog-details .article-footer .article-share .social li a i.fa-twitter {
   background-color: #1da1f2;
-  color: #000000;
+  color: #ffffff;
 }
 .blog-details .article-footer .article-share .social li a i.fa-twitter:hover {
   background: #A0E7A7;
@@ -3518,17 +3544,18 @@ a.meanmenu-reveal {
 }
 .blog-details .article-footer .article-share .social li a i.fa-linkedin-in {
   background-color: #0077b5;
-  color: #000000;
+  color: #ffffff;
 }
 .blog-details .article-footer .article-share .social li a i.fa-linkedin-in:hover {
   background: #A0E7A7;
 }
 .blog-details .article-footer .article-share .social li a i.fa-instagram {
   background-color: #c13584;
-  color: #000000;
+  color: #ffffff;
 }
 .blog-details .article-footer .article-share .social li a i.fa-instagram:hover {
   background: #A0E7A7;
+	color: #ffffff;
 }
 .blog-details .post-navigation {
   margin-top: 30px;
