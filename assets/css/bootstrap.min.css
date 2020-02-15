@@ -1704,24 +1704,24 @@ pre code {
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
 .form-control::-webkit-input-placeholder {
-  color: #000;
-  opacity: 1
+  color: #ccc;
+  opacity: 0.25
 }
 .form-control::-moz-placeholder {
-  color: #000;
-  opacity: 1
+  color: #ccc;
+  opacity: 0.25
 }
 .form-control:-ms-input-placeholder {
-  color: #000;
-  opacity: 1
+  color: #ccc;
+  opacity: 0.25
 }
 .form-control::-ms-input-placeholder {
-  color: #000;
-  opacity: 1
+  color: #ccc;
+  opacity: 0.25
 }
 .form-control::placeholder {
-  color: #000;
-  opacity: 1
+  color: #ccc;
+  opacity: 0.25
 }
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
