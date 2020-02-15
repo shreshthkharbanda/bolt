@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa24531d-0ff3-45ae-97a4-70947884e002" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="aa24531d-0ff3-45ae-97a4-70947884e002" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="266" column="34" selection-start-line="266" selection-start-column="34" selection-end-line="266" selection-end-column="34" />
+            <state relative-caret-position="236">
+              <caret line="208" column="50" lean-forward="true" selection-start-line="208" selection-start-column="50" selection-end-line="208" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -37,6 +35,7 @@
     <findStrings>
       <find>#</find>
       <find>About Company</find>
+      <find>border</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,12 +108,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581749233818</updated>
-      <workItem from="1581749237170" duration="284000" />
+      <workItem from="1581749237170" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284000" />
+    <option name="totallyTimeSpent" value="363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -163,8 +162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="266" column="34" selection-start-line="266" selection-start-column="34" selection-end-line="266" selection-end-column="34" />
+        <state relative-caret-position="236">
+          <caret line="208" column="50" lean-forward="true" selection-start-line="208" selection-start-column="50" selection-end-line="208" selection-end-column="50" />
         </state>
       </provider>
     </entry>
