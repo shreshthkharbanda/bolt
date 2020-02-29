@@ -1,5 +1,5 @@
 /*
-@File: Kiaro Template Styles
+@File: Bolt Inc.
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -64,6 +64,20 @@ p {
   line-height: 28px;
   font-family: "Muli", sans-serif;
 }
+pClasses {
+  color: rgb(231, 228, 228);
+  font-size: 15px;
+  line-height: 28px;
+  font-family: "Muli", sans-serif;
+  justify-content: end;
+}
+classHeading {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 28px;
+  font-family: "Muli", sans-serif;
+  justify-content: end;
+}
 h3 {
   font-size: 18px;
   color: #2f2c2c;
@@ -86,7 +100,7 @@ ul {
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
-	background: #444444;
+  background: #444444;
 }
 .pt-100 {
   padding-top: 100px;
@@ -612,6 +626,7 @@ a.meanmenu-reveal {
   position: unset;
   width: 100%;
   z-index: 9;
+  background: #fff;
   height: auto;
   padding-top: 0;
   padding-bottom: 0;
@@ -1354,7 +1369,7 @@ a.meanmenu-reveal {
   position: relative;
 }
 .single-add-box .image-caption-wrapper .add-box-bottom h5 {
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 0;
   font-weight: 600;
   float: left;
@@ -1694,8 +1709,8 @@ a.meanmenu-reveal {
   color: #000000;
 }
 .single-team .image-cap span {
-  color: #d0d0d0;
-  font-size: 12px;
+  color: #5e5b5b;
+  font-size: 10px;
 }
 /*
  News Section Style
@@ -3089,7 +3104,7 @@ a.meanmenu-reveal {
 .cart-details .product-details h3 {
   font-size: 18px;
   font-weight: 600;
-  color: #3c3c3c;
+  color: #ececec;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -3103,6 +3118,7 @@ a.meanmenu-reveal {
   color: #696969;
 }
 .cart-details .product-details p {
+  color: rgb(200, 200, 200);
   font-size: 16px;
 }
 .cart-details .product-details .product-option .product-row input {
@@ -3142,7 +3158,6 @@ a.meanmenu-reveal {
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
-  text-transform: capitalize;
   margin-right: 10px;
 }
 .product-wrapper {

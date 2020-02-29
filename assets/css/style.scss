@@ -1,5 +1,5 @@
 /*
-@File: Kiaro Template Styles
+@File: Bolt Inc.
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -67,6 +67,27 @@ a {
 p {
     color: $paragraph-color;
     font-size: 15px;
+    line-height: 28px;
+    font-family: $muli-font-family;
+}
+pClasses {
+    color: #fff;
+    align-items: center;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: $muli-font-family;
+}
+classHeading {
+    color: #fff;
+    align-items: center;
+    font-size: 25px;
+    line-height: 28px;
+    font-family: $muli-font-family;
+}
+classHeading {
+    color: #fff;
+    align-items: center;
+    font-size: 25px;
     line-height: 28px;
     font-family: $muli-font-family;
 }
@@ -1109,28 +1130,6 @@ a.meanmenu-reveal {
         position: relative;
         padding-left: 180px;
         max-width: 85%!important;
-        &::before {
-            content: "";
-            position: absolute;
-            top: -159px;
-            left: 29px;
-            width: 90px;
-            height: 300px;
-            background-color: #f9f9f9;
-            transform: rotate(45deg);
-            z-index: -1;
-        }
-        &::after {
-            content: "";
-            position: absolute;
-            background-image: url(../img/select-shape-banner.png);
-            left: -400px;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-repeat: no-repeat;
-            z-index: -1;
-        }
     }
 }
 

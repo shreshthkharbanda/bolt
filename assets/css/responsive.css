@@ -602,12 +602,6 @@
     width: 108%;
     margin-top: 40px;
   }
-  .perches-wrap2 .perhes-form-wrapper2::before {
-    display: none;
-  }
-  .perches-wrap2 .perhes-form-wrapper2::after {
-    display: none;
-  }
   .offer-section .single-offer {
     text-align: center;
   }
@@ -1056,12 +1050,6 @@
     width: 73%;
     margin-top: 30px;
   }
-  .perches-wrap2 .perhes-form-wrapper2::before {
-    display: none;
-  }
-  .perches-wrap2 .perhes-form-wrapper2::after {
-    display: none;
-  }
   a.nav-link.search-ico {
     display: none;
   }
@@ -1285,10 +1273,6 @@
   }
   .choose-section {
     padding-bottom: 80px !important;
-  }
-  .perches-wrap2 .perhes-form-wrapper2::before {
-    top: -154px;
-    left: 20px;
   }
   .services-section .right-service {
     margin-right: auto;

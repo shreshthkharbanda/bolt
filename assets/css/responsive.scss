@@ -756,16 +756,6 @@
             }
         }
     }
-    .perches-wrap2 {
-        .perhes-form-wrapper2 {
-            &::before {
-                display: none;
-            }
-            &::after {
-                display: none;
-            }
-        }
-    }
     .offer-section {
         .single-offer {
             text-align: center;
@@ -1326,16 +1316,6 @@
             }
         }
     }
-    .perches-wrap2 {
-        .perhes-form-wrapper2 {
-            &::before {
-                display: none;
-            }
-            &::after {
-                display: none;
-            }
-        }
-    }
     a.nav-link.search-ico {
         display: none;
     }
@@ -1579,7 +1559,7 @@
     .about-section {
         .ab-left {
             margin-left: auto;
-            max-width: 450px;
+            max-width: 450px;;
         }
     }
 
@@ -1654,14 +1634,6 @@
     }
     .choose-section {
         padding-bottom: 80px!important;
-    }
-    .perches-wrap2 {
-        .perhes-form-wrapper2 {
-            &::before {
-                top: -154px;
-                left: 20px;
-            }
-        }
     }
     .services-section {
         .right-service {
