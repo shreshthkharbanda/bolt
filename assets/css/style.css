@@ -88,7 +88,7 @@ ul {
 .d-table {
   width: 100%;
   height: 100%;
-  background-image: url(/Users/shreshthkharbanda/Documents/GitHub/bolt/assets/img/gallery/contact.jpeg);
+  background-image: url(assets/img/gallery/contact.jpeg);
 }
 .d-tablecell {
   display: table-cell;
@@ -1477,7 +1477,7 @@ a.meanmenu-reveal {
  Counter Section Style
 ==============================*/
 .counter-section {
-  background-image: url(/Users/shreshthkharbanda/Documents/GitHub/bolt/assets/img/buy-a-car.jpeg);
+  background-image: url(assets/img/buy-a-car.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1867,7 +1867,7 @@ a.meanmenu-reveal {
  Footer Section Style
 ==============================*/
 .footer-top {
-  background-image: url(/Users/shreshthkharbanda/Documents/GitHub/bolt/assets/img/footer/footer-bg.jpeg);
+  background-image: url(assets/img/footer/footer-bg.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4095,12 +4095,14 @@ blockquote::before {
 .single-contact h3 {
   font-size: 18px;
   font-weight: 600;
+  color: #A0E7A7;
   text-transform: uppercase;
   margin-bottom: 6;
   margin-top: 6px;
 }
 .single-contact p {
   margin-bottom: 0;
+  color: #ccc;
 }
 .contact-form-section .form-control {
   border-radius: 0;
