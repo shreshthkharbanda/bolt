@@ -2073,6 +2073,7 @@ a.meanmenu-reveal {
   display: flex;
 }
 .main-banner .single-banner h1 {
+  color: white;
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
