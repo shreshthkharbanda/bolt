@@ -275,7 +275,7 @@ button {
 }
 .custom-btn1 {
     display: inline-block;
-    background-color: #504e4f;
+    background-color: #A0E7A7;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -296,7 +296,7 @@ button {
         z-index: -1;
     }
     &:hover {
-        color: $theme-color;
+        color: #504e4f;
         &::before {
             width: 100%;
         }
