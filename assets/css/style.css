@@ -749,7 +749,7 @@ a.meanmenu-reveal {
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #A;
+  color: #A0E7A7;
 }
 
 .main-nav nav .navbar-nav .nav-item a:focus {
@@ -2376,7 +2376,7 @@ a.meanmenu-reveal {
   padding-top: 85px;
   padding-bottom: 120px;
   position: relative;
-  background: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .main-banner .shape2 {
@@ -3770,7 +3770,7 @@ a.meanmenu-reveal {
 }
 
 .shop-cart-tab {
-  background: #fafafa;
+  background: #444444;
   padding: 30px 20px;
 }
 
@@ -3815,7 +3815,7 @@ a.meanmenu-reveal {
 
 .shop-cart-tab .shop-tab .description p {
   font-size: 16px;
-  color: #868686;
+  color: #ffffff;
   margin-bottom: 0;
 }
 
@@ -3859,7 +3859,7 @@ a.meanmenu-reveal {
 .shop-cart-tab .nav-pills .nav-link.active {
   border-bottom: unset;
   background: #A0E7A7;
-  color: #ffff;
+  color: #000000;
   border: 1px solid #eeeeee;
 }
 
