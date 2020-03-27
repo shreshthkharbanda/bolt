@@ -1895,7 +1895,7 @@ a.meanmenu-reveal {
 }
 .single-widget .logo-image img {
   margin-bottom: 30px;
-  width: unset;
+  width: 100%;
 }
 .single-widget p {
 	color: #fff;
@@ -2001,7 +2001,7 @@ a.meanmenu-reveal {
   padding: 20px;
 }
 .footer-bottom p {
-  color: #000000;
+  color: #fff;
   text-align: center;
   margin-bottom: 0;
   font-size: 13px;
@@ -2547,22 +2547,35 @@ a.meanmenu-reveal {
 }
 .appoinment-section .appoinment-form .form-group textarea {
   height: 130px;
-	color: #ccc;
+	color: #fff;
 }
 .appoinment-section .appoinment-form .form-control {
   border: 0;
- color: #ccc;
-  border-bottom: 1px solid #ccc;
+ color: #fff;
+  border-bottom: 1px solid #fff;
   text-transform: capitalize;
   background-color: unset;
   border-radius: 0;
   padding: 10px 0;
 }
+.appoinment-section .appoinment-form .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(172, 171, 171);
+  opacity: 1; /* Firefox */
+}
+
+.appoinment-section .appoinment-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(172, 171, 171);
+}
+
+.appoinment-section .appoinment-form .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(172, 171, 171);
+}
+
 .appoinment-section .appoinment-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0;
- color: #ccc;
+ color: #fff;
 }
 .appoinment-section .appoinment-form .custom-btn2 {
   border: none;
@@ -2582,7 +2595,7 @@ a.meanmenu-reveal {
 }
 .appoinment-section .appoinment-form .nice-select span {
   font-size: 17px;
-	color: #ccc;
+	color: #fff;
 }
 .appoinment-section .appoinment-form .nice-select .list {
   padding: 0;
@@ -2682,7 +2695,7 @@ a.meanmenu-reveal {
   position: relative;
 }
 .all-page-banner .banner-text h1 {
-  color: #000000;
+  color: #fff;
   text-transform: capitalize;
   font-size: 45px;
 }
@@ -2692,7 +2705,7 @@ a.meanmenu-reveal {
 }
 .all-page-banner .banner-text ul li {
   display: inline-block;
-  color: #000000;
+  color: #ccc;
   text-transform: capitalize;
   font-size: 15px;
 }
@@ -3085,12 +3098,19 @@ a.meanmenu-reveal {
 .cart-details .shop-single-slider .slider-for img {
   display: block;
   border: 1px solid #e4e4e4;
+  transition: transform .2s;
 }
 .cart-details .shop-single-slider .slider-for img:focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   outline: 0;
+  transition: transform .2s;
 }
+.cart-details .shop-single-slider .slider-for img:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
 .cart-details .shop-single-slider .slider-nav {
   margin-top: 10px;
   border-right: 1px solid #e4e4e4;
@@ -3346,7 +3366,7 @@ a.meanmenu-reveal {
   font-size: 14px;
 }
 .comment-box-wrapper .comment-form .form-group .form-control:focus {
-  border: 1px solid #dfdede;
+  border: 1px solid #fff;
 }
 .comment-box-wrapper .comment-form .form-group textarea.form-control {
   height: 200px;
