@@ -2022,7 +2022,7 @@ a.meanmenu-reveal {
   padding-top: 85px;
   padding-bottom: 120px;
   position: relative;
-  background: #f9f9f9;
+  background-color: #444444;
 }
 .main-banner .shape2 {
   position: absolute;
@@ -3199,7 +3199,7 @@ a.meanmenu-reveal {
   margin-bottom: 30px;
 }
 .shop-cart-tab {
-  background: #fafafa;
+  background: #444444;
   padding: 30px 20px;
 }
 .shop-cart-tab .nav-pills {
@@ -3236,7 +3236,7 @@ a.meanmenu-reveal {
 }
 .shop-cart-tab .shop-tab .description p {
   font-size: 16px;
-  color: #868686;
+  color: #ffffff;
   margin-bottom: 0;
 }
 .shop-cart-tab .shop-tab .info h3 {
@@ -3272,7 +3272,7 @@ a.meanmenu-reveal {
 .shop-cart-tab .nav-pills .nav-link.active {
   border-bottom: unset;
   background: #A0E7A7;
-  color: #ffff;
+  color: #000000;
   border: 1px solid #eeeeee;
 }
 .review h3 {
