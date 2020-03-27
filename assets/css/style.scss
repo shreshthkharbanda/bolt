@@ -1339,6 +1339,8 @@ a.meanmenu-reveal {
     .image {
         overflow: hidden;
         img {
+            width: 500px;
+            height: 500px;
             transition: .5s;
             border-radius: 4px 4px 0 0;
         }

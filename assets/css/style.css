@@ -2869,6 +2869,8 @@ a.meanmenu-reveal {
   border: 1px solid #eeeeee;
   margin: auto;
   display: table;
+  width: 250px;
+  height: 250px;
 }
 .single-shop .shop-image .add-cart-hover {
   text-align: center;
