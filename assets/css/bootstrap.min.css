@@ -1697,31 +1697,31 @@ pre code {
   border: 0
 }
 .form-control:focus {
-  color: #495057;
+  color: #000000;
   background-color: #fff;
   border-color: #80bdff;
   outline: 0;
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
 .form-control::-webkit-input-placeholder {
-  color: #ccc;
-  opacity: 0.25
+  color: rgb(126, 126, 126);
+  opacity: 0.5
 }
 .form-control::-moz-placeholder {
-  color: #ccc;
-  opacity: 0.25
+  color: rgb(126, 126, 126);
+  opacity: 0.5
 }
 .form-control:-ms-input-placeholder {
-  color: #ccc;
-  opacity: 0.25
+  color: rgb(126, 126, 126);
+  opacity: 0.5
 }
 .form-control::-ms-input-placeholder {
-  color: #ccc;
-  opacity: 0.25
+  color: rgb(126, 126, 126);
+  opacity: 0.5
 }
 .form-control::placeholder {
-  color: #ccc;
-  opacity: 0.25
+  color: rgb(126, 126, 126);
+  opacity: 0.5
 }
 .form-control:disabled, .form-control[readonly] {
   background-color: #e9ecef;
@@ -1731,7 +1731,7 @@ select.form-control:not([size]):not([multiple]) {
   height: calc(2.25rem + 2px)
 }
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #000000;
   background-color: #fff
 }
 .form-control-file, .form-control-range {

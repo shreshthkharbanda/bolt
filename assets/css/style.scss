@@ -4296,6 +4296,9 @@ blockquote {
             box-shadow: none;
         }
     }
+      ::placeholder {
+        color: red;
+      }
     textarea {
         &.form-control {
             height: 200px;

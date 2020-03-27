@@ -1319,7 +1319,8 @@ a.meanmenu-reveal {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 200px;
+  height: 200px;
 }
 .single-add-box:hover h3 {
   color: #A0E7A7;
@@ -4149,6 +4150,10 @@ blockquote::before {
 .contact-form-section form#contactForm {
   background: #eeeeee;
   padding: 50px 30px;
+}
+
+::placeholder {
+  color: red;
 }
 .contact-form-section .submit-btn {
   background: #A0E7A7 !important;
